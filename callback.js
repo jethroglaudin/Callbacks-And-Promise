@@ -58,6 +58,8 @@ let promise = new Promise(function(resolve, reject) {
   })
 
   promise1.then(
-      result => console.log(`Promise successful here is the total ${result}`), 
+      result => console.log(`Promise successful here is the total ${result}`),
+      
+      
       error => console.log(error)
   )
